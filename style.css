@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: white;
+}
+
+.content {
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    padding: 100px 80px;
+}
+
+.text, .image {
+    width: 50%;
+}
